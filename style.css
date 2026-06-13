@@ -1,0 +1,168 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f1f5f9;
+    color:#334155;
+    line-height:1.7;
+}
+
+/* Container */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Header */
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 0;
+    position:sticky;
+    top:0;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+/* Logo */
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* Navigation */
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#3b82f6;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#0f172a;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:20px;
+}
+
+/* Button */
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 25px;
+    background:#3b82f6;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#2563eb;
+}
+
+/* Card */
+
+.card{
+    background:white;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Skills */
+
+.skill{
+    margin-bottom:20px;
+}
+
+.progress{
+    width:100%;
+    background:#dbeafe;
+    border-radius:20px;
+}
+
+.bar{
+    height:20px;
+    background:#3b82f6;
+    border-radius:20px;
+}
+
+/* Footer */
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+/* Image */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Responsive */
+
+@media screen and (max-width:768px){
+
+header .container{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:35px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+}
