@@ -1,114 +1,753 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aryan Portfolio</title>
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aryan Rohit Khiladi | Frontend Developer</title>
+
+<meta name="description"
+content="Official Portfolio of Aryan Rohit Khiladi | Computer Engineering Student | Frontend Developer">
+
+<meta name="keywords"
+content="Aryan Portfolio, Web Developer, Frontend Developer, HTML CSS JavaScript">
+
+<meta name="author"
+content="Aryan Rohit Khiladi">
+
+<meta name="theme-color"
+content="#0f172a">
+
+<link rel="icon"
+href="images/logo.png">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<link rel="stylesheet"
+href="style.css">
 
 </head>
+
 <body>
 
-<header>
+<!--==========================
+        LOADER
+===========================-->
+
+<div id="loader">
+
+<div class="loader-content">
+
+<h1>Aryan</h1>
+
+<span>Portfolio</span>
+
+</div>
+
+</div>
+
+<!--==========================
+     SCROLL PROGRESS BAR
+===========================-->
+
+<div id="progress-bar"></div>
+
+<!--==========================
+          HEADER
+===========================-->
+
+<header id="header">
 
 <div class="container">
 
-<div class="logo">
-Aryan Portfolio
-</div>
+<a href="#" class="logo">
 
-<nav>
+Aryan<span>.</span>
+
+</a>
+
+<nav id="navbar">
+
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="skills.html">Skills</a></li>
-<li><a href="contact.html">Contact</a></li>
+
+<li><a href="#home" class="active">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#certificates">Certificates</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
 </ul>
+
 </nav>
+
+<div id="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
 
 </div>
 
 </header>
 
+<!--==========================
+         HERO SECTION
+===========================-->
 
-<section class="hero">
+<section id="home" class="hero">
 
-<h1>Hello, I'm Aryan</h1>
+<div class="hero-bg">
+
+<div class="blob blob1"></div>
+
+<div class="blob blob2"></div>
+
+<div class="blob blob3"></div>
+
+</div>
+
+<div class="container hero-container">
+
+<div class="hero-left"
+data-aos="fade-right">
+
+<h4>Hello, I'm</h4>
+
+<h1>
+
+Aryan Rohit
+
+<span>Khiladi</span>
+
+</h1>
+
+<h3>
+
+<span class="typing"></span>
+
+</h3>
 
 <p>
-Computer Engineering Student and Web Developer
+
+Passionate Computer Engineering student with strong interest in Frontend Development, Web Technologies and Software Development. Currently building real-world projects and gaining industry experience through internship.
+
 </p>
 
-<a href="projects.html" class="btn">
-View Projects
+<div class="hero-buttons">
+
+<a href="#" class="btn primary-btn">
+
+Download Resume
+
+</a>
+
+<a href="#contact" class="btn secondary-btn">
+
+Contact Me
+
+</a>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://github.com/khiladiaryan819-cmd"
+target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/aryan-khiladi-302b93414"
+target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:khiladiaryan819@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+<a href="tel:+917038742339">
+
+<i class="fas fa-phone"></i>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right"
+data-aos="zoom-in">
+
+<div class="profile-card">
+
+<img
+src="images/profile.jpg"
+alt="Aryan Khiladi">
+
+<div class="circle-animation"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<a href="#about"
+class="scroll-down">
+
+<i class="fas fa-angle-double-down"></i>
+
 </a>
 
 </section>
 
+<!-- ==========================
+     ABOUT SECTION STARTS
+=========================== -->
+<!--==========================
+        ABOUT SECTION
+===========================-->
+
+<section id="about" class="about section">
 
 <div class="container">
 
-<div class="card">
+<div class="section-title" data-aos="fade-up">
 
 <h2>About Me</h2>
 
+<p>Know more about me</p>
+
+</div>
+
+<div class="about-container">
+
+<div class="about-image" data-aos="fade-right">
+
+<img src="images/profile.jpg" alt="Aryan">
+
+</div>
+
+<div class="about-content" data-aos="fade-left">
+
+<h3>Frontend Developer & Computer Engineering Student</h3>
+
 <p>
-I am a Computer Engineering student with an interest in Web Development, Programming, and Software Technologies.
-I enjoy creating responsive and modern websites using HTML, CSS, and JavaScript.
+
+I'm Aryan Rohit Khiladi from Nagpur, Maharashtra.
+
+Currently pursuing Diploma in Computer Engineering and passionate about building modern websites with clean UI, smooth animations and excellent user experience.
+
+</p>
+
+<div class="about-info">
+
+<div>
+
+<h4>Name</h4>
+
+<p>Aryan Rohit Khiladi</p>
+
+</div>
+
+<div>
+
+<h4>Email</h4>
+
+<p>khiladiaryan819@gmail.com</p>
+
+</div>
+
+<div>
+
+<h4>Phone</h4>
+
+<p>+91 7038742339</p>
+
+</div>
+
+<div>
+
+<h4>Location</h4>
+
+<p>Nagpur, Maharashtra</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+        SKILLS
+===========================-->
+
+<section id="skills" class="skills section">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
+
+<h2>Skills</h2>
+
+<p>Technologies I work with</p>
+
+</div>
+
+<div class="skills-grid">
+
+<div class="skill-card" data-aos="zoom-in">
+
+<i class="fab fa-html5"></i>
+
+<h3>HTML5</h3>
+
+<p>Semantic & Responsive Layout</p>
+
+</div>
+
+<div class="skill-card" data-aos="zoom-in">
+
+<i class="fab fa-css3-alt"></i>
+
+<h3>CSS3</h3>
+
+<p>Animations & Responsive Design</p>
+
+</div>
+
+<div class="skill-card" data-aos="zoom-in">
+
+<i class="fab fa-js"></i>
+
+<h3>JavaScript</h3>
+
+<p>DOM & Interactive UI</p>
+
+</div>
+
+<div class="skill-card" data-aos="zoom-in">
+
+<i class="fab fa-git-alt"></i>
+
+<h3>Git & GitHub</h3>
+
+<p>Version Control</p>
+
+</div>
+
+<div class="skill-card" data-aos="zoom-in">
+
+<i class="fas fa-code"></i>
+
+<h3>C / C++</h3>
+
+<p>Programming Fundamentals</p>
+
+</div>
+
+<div class="skill-card" data-aos="zoom-in">
+
+<i class="fab fa-python"></i>
+
+<h3>Python</h3>
+
+<p>Basic Programming</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+        PROJECTS
+===========================-->
+
+<section id="projects" class="projects section">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
+
+<h2>Projects</h2>
+
+<p>My Recent Work</p>
+
+</div>
+
+<div class="projects-grid">
+
+<div class="project-card" data-aos="fade-up">
+
+<img src="images/project1.jpg" alt="Tuition Website">
+
+<div class="project-content">
+
+<h3>Hustler's Tuition</h3>
+
+<p>
+
+Premium responsive tuition website with modern UI, animations and admission section.
+
+</p>
+
+<div class="project-buttons">
+
+<a href="https://khiladiaryan819-cmd.github.io/Hustler-sTuition/" target="_blank">Live</a>
+
+<a href="https://github.com/khiladiaryan819-cmd" target="_blank">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="project-card" data-aos="fade-up" data-aos-delay="100">
+
+<img src="images/project2.jpg" alt="Portfolio">
+
+<div class="project-content">
+
+<h3>Portfolio Website</h3>
+
+<p>
+
+Personal premium portfolio showcasing projects, skills and experience.
+
+</p>
+
+<div class="project-buttons">
+
+<a href="https://khiladiaryan819-cmd.github.io/portfolio-/" target="_blank">Live</a>
+
+<a href="https://github.com/khiladiaryan819-cmd" target="_blank">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="project-card" data-aos="fade-up" data-aos-delay="200">
+
+<img src="images/project3.jpg" alt="LifeSaver">
+
+<div class="project-content">
+
+<h3>LifeSaver</h3>
+
+<p>
+
+Healthcare themed responsive website created using HTML, CSS & JavaScript.
+
+</p>
+
+<div class="project-buttons">
+
+<a href="https://khiladiaryan819-cmd.github.io/Lifesaver-/" target="_blank">Live</a>
+
+<a href="https://github.com/khiladiaryan819-cmd" target="_blank">GitHub</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+     EXPERIENCE STARTS
+===========================--><!--==========================
+        EXPERIENCE
+===========================-->
+
+<section id="experience" class="experience section">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
+
+<h2>Experience</h2>
+
+<p>My Professional Journey</p>
+
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item" data-aos="fade-right">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>Web Development Intern</h3>
+
+<h4>Pegasus Technologies Pvt. Ltd.</h4>
+
+<span>2026 - Present</span>
+
+<p>
+
+Working on modern frontend development, responsive websites, Git & GitHub workflow and real-world projects while learning industry best practices.
+
 </p>
 
 </div>
 
+</div>
 
-<div class="card">
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+        EDUCATION
+===========================-->
+
+<section id="education" class="education section">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
 
 <h2>Education</h2>
 
-<p>
-
-Diploma in Computer Engineering
-
-Polytechnic Student
-
-Interested in Frontend Development and Full Stack Development.
-
-</p>
+<p>Academic Background</p>
 
 </div>
 
+<div class="education-card" data-aos="zoom-in">
 
-<div class="card">
+<h3>Diploma in Computer Engineering</h3>
 
-<h2>Goals</h2>
+<h4>Priyadarshini Bhagwati College of Engineering & Polytechnic</h4>
 
-<p>
+<p>Currently entering 5th Semester</p>
 
-Become a Full Stack Developer
-
-Build Real Projects
-
-Improve Programming Skills
-
-Learn Modern Technologies
-
-</p>
+<p>State Board (10th): <strong>88%</strong></p>
 
 </div>
 
 </div>
 
+</section>
+
+<!--==========================
+      CERTIFICATES
+===========================-->
+
+<section id="certificates" class="certificates section">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
+
+<h2>Certificates</h2>
+
+<p>Achievements & Learning</p>
+
+</div>
+
+<div class="certificate-slider">
+
+<div class="certificate-card">
+
+<i class="fas fa-award"></i>
+
+<h3>IBM SkillsBuild</h3>
+
+<p>Professional Learning Certificate</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==========================
+        CONTACT
+===========================-->
+
+<section id="contact" class="contact section">
+
+<div class="container">
+
+<div class="section-title" data-aos="fade-up">
+
+<h2>Contact Me</h2>
+
+<p>Let's Connect</p>
+
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<i class="fas fa-phone"></i>
+
+<h3>Phone</h3>
+
+<p>+91 7038742339</p>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fas fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>khiladiaryan819@gmail.com</p>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fas fa-location-dot"></i>
+
+<h3>Location</h3>
+
+<p>Nagpur, Maharashtra</p>
+
+</div>
+
+</div>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit" class="btn primary-btn">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!--==========================
+         FOOTER
+===========================-->
 
 <footer>
 
+<div class="container">
+
+<h2>Aryan Rohit Khiladi</h2>
+
 <p>
 
-© 2026 Aryan Portfolio Website
+Computer Engineering Student | Frontend Developer | Web Developer
 
 </p>
 
+<div class="footer-social">
+
+<a href="https://github.com/khiladiaryan819-cmd" target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/aryan-khiladi-302b93414" target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:khiladiaryan819@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 Aryan Rohit Khiladi. All Rights Reserved.
+
+</p>
+
+</div>
+
 </footer>
 
+<button id="backToTop">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
